@@ -62,7 +62,7 @@ const ProductsPage = () => {
             await axios.delete(`${BASE_URL}/products/${id}`);
             fetchProducts();
         } catch (err) {
-            console.error('Delete failed:', err);
+            console.error('Delete failed:', err.response.data);
             alert('Failed to delete product');
         }
     };
@@ -129,7 +129,7 @@ const ProductsPage = () => {
             handleCloseModal();
             fetchProducts();
         } catch (err) {
-            console.error('Submit failed:', err);
+            console.error('Submit failed:', err.response.data);
             alert('Failed to save product');
         }
     };

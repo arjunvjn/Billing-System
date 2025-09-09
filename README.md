@@ -4,7 +4,7 @@
 
 ## 📋 Description
 
-A simple billing system for stores, built with **FastAPI** (backend) and **ReactJS** (frontend). It allows store staff to manage products and generate customer bills efficiently.
+A simple billing system for a store, built with **FastAPI** (backend) and **ReactJS** (frontend). It allows store staff to manage products and generate customer bills efficiently.
 
 
 ## 🚀 Features

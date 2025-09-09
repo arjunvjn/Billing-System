@@ -49,7 +49,7 @@ const OrdersPage = () => {
       });
     }
     catch (err) {
-      console.error('Submit failed:', err);
+      console.error('Submit failed:', err.response.data);
       alert('Failed to generate bill');
     }
   };
